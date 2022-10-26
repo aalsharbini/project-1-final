@@ -5,9 +5,7 @@
 :root {
   --a: 5px;
   --b: 5px;
-
-
-
+}
 body {
   background-image: url('../background_img.jpg');
   font-family: 'Muli', sans-serif;
