@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="javascript/script.js" async></script>
+  <title>Assignment</title>
+</head>
+
+<body>
+  <div id="main">
+    <form method="get" action="#null" autocomplete="on">
+      <div class="content">
+        <h1>What Would you like to learn?</h1>
+        <div>
+          <input type="checkbox" name="Website" id="Website">
+          <label for="app">Website Development</label>
+        </div>
+        <div>
+          <input type="checkbox" name="app" id="app">
+          <label for="app">App Development</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Cyber" id="Cyber">
+          <label for="Cyber">Cyber Security</label>
+        </div>
+        <div>
+          <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+        </div>
+        <div>
+          <button type="submit" id="submitbtn" onmouseover="color()" onmouseout="color1()"
+            onclick="validate()">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
