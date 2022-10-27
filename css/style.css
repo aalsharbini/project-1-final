@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-
-
-:root {
-  --a: 5px;
-  --b: 5px;
+:root{
+--a:5px;
 }
 body {
   background-image: url('../background_img.jpg');
@@ -39,7 +36,7 @@ line height with above defined variables */
 
 .content {
   margin-top: 13%;
-  line-height: calc(var(--a) * var(--b));
+  line-height: calc(var(--a) * 5);
 }
 
 .content h1 {
